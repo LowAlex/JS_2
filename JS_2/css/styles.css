@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+
+  .container-flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-wrap-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  header {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  nav {
+    background-color: #e0e0e0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+
+  .button-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .button-primary.fill {
+    background-color: #0056b3;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-primary.fill:hover {
+    background-color: #004494;
+  }
+  
+  .button-error {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button-error:hover {
+    background-color: #c82333;
+  }
+  
+ 
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+
+  footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .margin-left-10px {
+    margin-left: 10px;
+  }
+  
+
+  #output {
+    margin-top: 20px;
+    color: #333;
+  }
+
+  body.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  body.light header,
+  body.light footer {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  body.light nav {
+    background-color: #e0e0e0;
+  }
+  
+  body.light .button-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  body.light .button-primary.fill {
+    background-color: #0056b3;
+  }
+  
+  body.light input[type="text"],
+  body.light input[type="radio"] {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  
+
+  body.dark {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  body.dark header,
+  body.dark footer {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  body.dark nav {
+    background-color: #444444;
+  }
+  
+  body.dark .button-primary {
+    background-color: #555555;
+    color: white;
+  }
+  
+  body.dark .button-primary.fill {
+    background-color: #777777;
+  }
+  
+  body.dark .button-primary:hover {
+    background-color: #666666;
+  }
+  
+  body.dark input[type="text"],
+  body.dark input[type="radio"] {
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #e0e0e0;
+  }
+  
+ 
+  
